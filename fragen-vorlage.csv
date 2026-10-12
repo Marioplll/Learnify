@@ -1,0 +1,3 @@
+typ;frage;antwort_a;antwort_b;antwort_c;antwort_d;richtig;erklaerung
+choice;Welches Organ pumpt Blut durch den Körper?;Herz;Lunge;Leber;Niere;A;Das Herz treibt den Blutkreislauf an.
+boolean;Die Erde umkreist die Sonne.;;;;;Richtig;Die Erde benötigt dafür ungefähr ein Jahr.
