@@ -1,0 +1,147 @@
+{
+  "format": "learnify-question-set",
+  "version": 1,
+  "name": "Leichte Mathe · 10 Fragen",
+  "questions": [
+    {
+      "kind": "choice",
+      "prompt": "Was ist 1 + 1?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "correct": [
+        "2"
+      ],
+      "explanation": "1 + 1 = 2."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 2 + 3?",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "correct": [
+        "5"
+      ],
+      "explanation": "2 + 3 = 5."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 5 - 2?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": [
+        "3"
+      ],
+      "explanation": "5 - 2 = 3."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 4 + 4?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "correct": [
+        "8"
+      ],
+      "explanation": "4 + 4 = 8."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 10 - 5?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "correct": [
+        "5"
+      ],
+      "explanation": "10 - 5 = 5."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 2 · 3?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "8"
+      ],
+      "correct": [
+        "6"
+      ],
+      "explanation": "2 · 3 = 6."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 8 : 2?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correct": [
+        "4"
+      ],
+      "explanation": "8 : 2 = 4."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 3 + 6?",
+      "options": [
+        "8",
+        "10",
+        "7",
+        "9"
+      ],
+      "correct": [
+        "9"
+      ],
+      "explanation": "3 + 6 = 9."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 7 - 4?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": [
+        "3"
+      ],
+      "explanation": "7 - 4 = 3."
+    },
+    {
+      "kind": "choice",
+      "prompt": "Was ist 5 · 2?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "7"
+      ],
+      "correct": [
+        "10"
+      ],
+      "explanation": "5 · 2 = 10."
+    }
+  ]
+}

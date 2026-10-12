@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' file:; style-src 'self' file: 'unsafe-inline'; img-src data: blob:; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Learnify · Offline lernen</title>
+<!-- Alle Dateien in diesem Ordner zusammenlassen. Kein Server erforderlich. -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<aside>
+<div class="brand">Learnify<span>.</span>
+</div>
+<nav aria-label="Hauptnavigation">
+<button data-action="home" class="active">Übersicht</button>
+<button data-action="quizzes">Meine Quizze</button>
+<button data-action="progress">Lernfortschritt</button>
+<button data-action="backup">Datenabgleich</button>
+</nav>
+<div class="side-bottom">
+<strong>Dein Lernen. Auf deinem Gerät.</strong>Ohne Anmeldung und ohne Internet.<br>
+<br>Erstelle regelmäßig eine Sicherung deiner Quizze und Lernstände.</div>
+</aside>
+<div class="main">
+<header class="topbar">
+<span>Dein Lernbereich</span>
+<span id="storage-status" class="badge">Speicher wird geprüft …</span>
+</header>
+<main id="app" aria-live="polite">
+<h1>Learnify wird geöffnet …</h1>
+</main>
+</div>
+<dialog id="modal">
+<button class="close" data-action="close" aria-label="Fenster schließen">×</button>
+<div id="modal-content"></div>
+<p id="modal-error" class="error" role="alert"></p>
+</dialog>
+<div id="toast" role="status"></div>
+<noscript>Bitte JavaScript im Browser aktivieren. Learnify verwendet JavaScript für Quizze und Speicherung.</noscript>
+<script defer src="daten/beispielquiz.js">
+</script>
+<script defer src="js/quiz.js">
+</script>
+<script defer src="js/csv.js">
+</script>
+<script defer src="js/dateiabgleich.js">
+</script>
+<script defer src="js/lernen.js">
+</script>
+<script defer src="js/speicher.js">
+</script>
+<script defer src="js/fragen.js">
+</script>
+<script defer src="js/app.js">
+</script>
+</body>
+</html>
